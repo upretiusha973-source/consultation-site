@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/logo.png",
+        url: "/logoo.png",
         width: 1200,
         height: 630,
         alt: "Digital Usha logo",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     title: "Digital Usha | Free 1:1 AI Marketing Consultation",
     description:
       "Book your free AI consultation and receive a customized marketing strategy for your business.",
-    images: ["/logo.png"],
+    images: ["/logoo.png"],
   },
 };
 
