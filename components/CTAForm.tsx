@@ -6,8 +6,24 @@ import type { FormEvent } from "react";
 export function CTAForm() {
   const router = useRouter();
 
-  function handleSubmit(event: FormEvent<HTMLFormElement>) {
+  async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
+
+    const form = event.currentTarget;
+    const formData = new FormData(form);
+
+    const response = await fetch("https://formsubmit.co/ajax/upretiusha973@gmail.com", {
+      method: "POST",
+      headers: {
+        Accept: "application/json",
+      },
+      body: formData,
+    });
+
+    if (!response.ok) {
+      throw new Error("Failed to submit consultation form");
+    }
+
     router.push("/thank-you");
   }
 
@@ -30,6 +46,9 @@ export function CTAForm() {
             onSubmit={handleSubmit}
             className="rounded-[1.65rem] border border-white/8 bg-[#040916]/80 px-5 py-8 sm:px-7 md:px-10 md:py-10"
           >
+            <input type="hidden" name="_subject" value="New consultation request" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="hidden" name="_captcha" value="false" />
             <div className="grid gap-6 md:grid-cols-2">
               <div>
                 <label className="mb-3 block text-[1rem] font-extrabold text-white">

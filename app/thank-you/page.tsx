@@ -15,7 +15,7 @@ export default function ThankYouPage() {
       <section className="content-wrap px-6 pb-16 pt-8 sm:px-8 md:pb-24 md:pt-10">
         <div className="mx-auto flex max-w-4xl flex-col items-center text-center">
           <span className="eyebrow">Thank You</span>
-          <h1 className="mt-7 max-w-3xl text-[clamp(2.8rem,5.5vw,4.9rem)] font-black leading-[0.94] tracking-[-0.07em] text-white">
+          <h1 className="mt-7 max-w-3xl text-[clamp(2rem,4vw,3.4rem)] font-black leading-[0.98] tracking-[-0.06em] text-white">
             Your consultation request has been received.
           </h1>
           <p className="body-copy mt-7 max-w-4xl text-[1.08rem] leading-9 text-[#bcc5d3]">
