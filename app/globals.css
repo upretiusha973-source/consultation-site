@@ -125,32 +125,33 @@ button,
 }
 
 #consultation-form .ff-6a870e66fbd33ed521da591d__field {
-  margin: 0 0 18px;
+  margin: 0 0 20px;
 }
 
 #consultation-form .ff-6a870e66fbd33ed521da591d__label {
   display: block;
   position: static;
-  margin: 0 0 10px;
+  margin: 0 0 9px;
   padding: 0;
   overflow: visible;
   white-space: normal;
   text-overflow: clip;
-  color: #ffffff;
-  font-size: 17px;
-  font-weight: 800;
-  line-height: 1.2;
-  letter-spacing: -0.02em;
+  color: #f4f7fb;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
 }
 
 #consultation-form .ff-6a870e66fbd33ed521da591d__control {
-  height: 44px;
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 12px;
-  background: #070f24;
-  color: #ffffff;
-  padding: 12px 16px;
-  font-size: 15px;
+  height: 56px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 13px;
+  background: #121620;
+  color: #f8fafc;
+  padding: 14px 18px;
+  font-size: 16px;
+  font-weight: 500;
   transition:
     border-color 0.2s ease,
     box-shadow 0.2s ease,
@@ -158,16 +159,17 @@ button,
 }
 
 #consultation-form .ff-6a870e66fbd33ed521da591d__control::placeholder {
-  color: transparent !important;
+  color: #697180 !important;
+  opacity: 1 !important;
 }
 
 #consultation-form .ff-6a870e66fbd33ed521da591d__control:focus {
-  border-color: rgba(53, 180, 255, 0.7);
-  box-shadow: 0 0 0 3px rgba(53, 180, 255, 0.12);
+  border-color: rgba(53, 180, 255, 0.55);
+  box-shadow: 0 0 0 3px rgba(53, 180, 255, 0.08);
 }
 
 #consultation-form .ff-6a870e66fbd33ed521da591d__footer {
-  margin-top: 18px;
+  margin-top: 16px;
   text-align: left;
 }
 
@@ -211,7 +213,7 @@ button,
   #consultation-form .ff-6a870e66fbd33ed521da591d__fields {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 18px 16px;
+    gap: 16px 16px;
   }
 
   #consultation-form .ff-6a870e66fbd33ed521da591d__field {
