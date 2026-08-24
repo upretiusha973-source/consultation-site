@@ -35,7 +35,7 @@ export function Hero() {
               Book Free Consultation
             </a>
             <span className="inline-flex h-14 items-center justify-center rounded-full border border-white/10 bg-white/[0.03] px-8 text-[0.98rem] font-extrabold tracking-[-0.03em] text-white sm:px-10">
-              Hurry up! Only 3 slots left...
+              Hurry up! Only 2 slots left...
             </span>
           </div>
 

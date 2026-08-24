@@ -14,19 +14,19 @@ export default function ThankYouPage() {
         </div>
       </section>
 
-      <section className="content-wrap px-6 pb-14 pt-4 sm:px-8 md:pb-16 md:pt-6">
+      <section className="content-wrap px-6 pb-12 pt-4 sm:px-8 md:pb-14 md:pt-6">
         <div className="mx-auto flex max-w-3xl flex-col items-center text-center">
           <span className="eyebrow">Thank You</span>
-          <h1 className="mt-5 max-w-3xl text-[clamp(1.9rem,3.8vw,3.1rem)] font-black leading-[0.98] tracking-[-0.06em] text-white">
+          <h1 className="mt-4 max-w-3xl text-[clamp(2.2rem,4.4vw,3.7rem)] font-black leading-[0.92] tracking-[-0.08em] text-white sm:text-[clamp(2.3rem,4.6vw,3.9rem)]">
             Your consultation request has been received.
           </h1>
 
-          <p className="mt-8 text-[clamp(1.05rem,1.4vw,1.22rem)] font-black leading-[1.2] tracking-[-0.04em] text-white sm:text-[1.22rem]">
+          <p className="mt-7 text-[clamp(1.02rem,1.35vw,1.16rem)] font-black leading-[1.2] tracking-[-0.04em] text-white sm:text-[1.16rem]">
             Watch the video below before closing this page...
           </p>
 
-          <div className="mt-5 w-full max-w-[640px] overflow-hidden rounded-[1.5rem] border border-white/10 bg-[linear-gradient(180deg,rgba(15,26,57,0.96),rgba(9,18,42,0.96))] p-3 shadow-[0_18px_50px_rgba(0,0,0,0.24)]">
-            <div className="overflow-hidden rounded-[1rem] bg-black">
+          <div className="mt-4 w-full max-w-[560px] overflow-hidden rounded-[1.35rem] border border-white/10 bg-[linear-gradient(180deg,rgba(15,26,57,0.96),rgba(9,18,42,0.96))] p-3 shadow-[0_16px_42px_rgba(0,0,0,0.22)]">
+            <div className="overflow-hidden rounded-[0.9rem] bg-black">
               <video
                 className="h-full w-full"
                 controls
@@ -37,7 +37,7 @@ export default function ThankYouPage() {
             </div>
           </div>
 
-          <p className="mt-7 max-w-2xl text-[1rem] font-semibold leading-8 tracking-[-0.02em] text-[#d6dbe7] sm:text-[1.05rem]">
+          <p className="mt-6 max-w-2xl text-[1rem] font-semibold leading-7 tracking-[-0.02em] text-[#d6dbe7] sm:text-[1.02rem]">
             This Consultation Is For Serious Business Owners Only.
           </p>
 
@@ -45,16 +45,16 @@ export default function ThankYouPage() {
             href="https://wa.me/+9779767122322"
             target="_blank"
             rel="noreferrer"
-            className="mt-5 inline-flex h-12 items-center justify-center rounded-full bg-[#25d366] px-7 text-[0.98rem] font-extrabold text-[#07140c] transition-colors hover:bg-[#36e07a]"
+            className="mt-4 inline-flex h-12 items-center justify-center rounded-full bg-[#25d366] px-7 text-[0.98rem] font-extrabold text-[#07140c] transition-colors hover:bg-[#36e07a]"
           >
             Chat on WhatsApp
           </a>
 
-          <p className="mt-5 text-[1rem] font-semibold leading-7 tracking-[-0.02em] text-white sm:text-[1.03rem]">
+          <p className="mt-4 text-[1rem] font-semibold leading-7 tracking-[-0.02em] text-white sm:text-[1.03rem]">
             See you inside the Call.
           </p>
 
-          <div className="mt-8 flex justify-center">
+          <div className="mt-7 flex justify-center">
             <div className="flex items-center gap-3">
               <img
                 src="/ChatGPT Image Aug 24, 2026, 03_59_59 AM.png"
