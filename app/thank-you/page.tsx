@@ -28,7 +28,7 @@ export default function ThankYouPage() {
           <div className="mt-4 w-full max-w-[460px] overflow-hidden rounded-[1.2rem] border border-white/10 bg-[linear-gradient(180deg,rgba(15,26,57,0.96),rgba(9,18,42,0.96))] p-2 shadow-[0_12px_30px_rgba(0,0,0,0.18)]">
             <div className="overflow-hidden rounded-[0.9rem] bg-black">
               <video
-                className="h-full w-full max-h-[250px] object-cover"
+                className="h-full w-full max-h-[300px] object-cover"
                 controls
                 playsInline
                 preload="metadata"
