@@ -14,23 +14,19 @@ export default function ThankYouPage() {
         </div>
       </section>
 
-      <section className="content-wrap px-6 pb-16 pt-8 sm:px-8 md:pb-20 md:pt-10">
-        <div className="mx-auto flex max-w-4xl flex-col items-center text-center">
+      <section className="content-wrap px-6 pb-14 pt-4 sm:px-8 md:pb-16 md:pt-6">
+        <div className="mx-auto flex max-w-3xl flex-col items-center text-center">
           <span className="eyebrow">Thank You</span>
-          <h1 className="mt-7 max-w-3xl text-[clamp(2rem,4vw,3.4rem)] font-black leading-[0.98] tracking-[-0.06em] text-white">
+          <h1 className="mt-5 max-w-3xl text-[clamp(1.9rem,3.8vw,3.1rem)] font-black leading-[0.98] tracking-[-0.06em] text-white">
             Your consultation request has been received.
           </h1>
-          <p className="body-copy mt-7 max-w-4xl text-[1.06rem] leading-9 text-[#bcc5d3]">
-            Thank you for booking your free 1:1 AI marketing consultation. Please watch the
-            video below carefully before closing this page.
-          </p>
 
-          <p className="mt-10 text-[clamp(1.08rem,1.5vw,1.32rem)] font-black leading-[1.15] tracking-[-0.04em] text-white sm:text-[1.3rem]">
+          <p className="mt-8 text-[clamp(1.05rem,1.4vw,1.22rem)] font-black leading-[1.2] tracking-[-0.04em] text-white sm:text-[1.22rem]">
             Watch the video below before closing this page...
           </p>
 
-          <div className="mt-6 w-full max-w-3xl overflow-hidden rounded-[1.75rem] border border-white/10 bg-[linear-gradient(180deg,rgba(15,26,57,0.96),rgba(9,18,42,0.96))] p-4 shadow-[0_24px_80px_rgba(0,0,0,0.28)]">
-            <div className="overflow-hidden rounded-[1.2rem] bg-black">
+          <div className="mt-5 w-full max-w-[640px] overflow-hidden rounded-[1.5rem] border border-white/10 bg-[linear-gradient(180deg,rgba(15,26,57,0.96),rgba(9,18,42,0.96))] p-3 shadow-[0_18px_50px_rgba(0,0,0,0.24)]">
+            <div className="overflow-hidden rounded-[1rem] bg-black">
               <video
                 className="h-full w-full"
                 controls
@@ -38,6 +34,37 @@ export default function ThankYouPage() {
                 preload="metadata"
                 src="/WhatsApp%20Video%202026-08-23%20at%204.38.03%20PM.mp4"
               />
+            </div>
+          </div>
+
+          <p className="mt-7 max-w-2xl text-[1rem] font-semibold leading-8 tracking-[-0.02em] text-[#d6dbe7] sm:text-[1.05rem]">
+            This Consultation Is For Serious Business Owners Only.
+          </p>
+
+          <a
+            href="https://wa.me/+9779767122322"
+            target="_blank"
+            rel="noreferrer"
+            className="mt-5 inline-flex h-12 items-center justify-center rounded-full bg-[#25d366] px-7 text-[0.98rem] font-extrabold text-[#07140c] transition-colors hover:bg-[#36e07a]"
+          >
+            Chat on WhatsApp
+          </a>
+
+          <p className="mt-5 text-[1rem] font-semibold leading-7 tracking-[-0.02em] text-white sm:text-[1.03rem]">
+            See you inside the Call.
+          </p>
+
+          <div className="mt-8 flex justify-center">
+            <div className="flex items-center gap-3">
+              <img
+                src="/ChatGPT Image Aug 24, 2026, 03_59_59 AM.png"
+                alt="Usha Uprety"
+                className="h-12 w-12 rounded-full object-cover ring-2 ring-white/15"
+                draggable={false}
+              />
+              <p className="text-[0.96rem] font-semibold tracking-[-0.02em] text-white sm:text-[1rem]">
+                Usha Uprety
+              </p>
             </div>
           </div>
         </div>
