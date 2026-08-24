@@ -3,6 +3,7 @@ import { Benefits } from "@/components/Benefits";
 import { Hero } from "@/components/Hero";
 import { ConsultationFit } from "@/components/ConsultationFit";
 import { Process } from "@/components/Process";
+import { SiteFooter } from "@/components/SiteFooter";
 import { Urgency } from "@/components/Urgency";
 
 export default function HomePage() {
@@ -14,6 +15,7 @@ export default function HomePage() {
       <Urgency />
       <Process />
       <CTAForm />
+      <SiteFooter />
     </main>
   );
 }
