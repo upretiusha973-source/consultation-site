@@ -17,18 +17,18 @@ export default function ThankYouPage() {
       <section className="content-wrap px-6 pb-12 pt-4 sm:px-8 md:pb-14 md:pt-6">
         <div className="mx-auto flex max-w-3xl flex-col items-center text-center">
           <span className="eyebrow">Thank You</span>
-          <h1 className="mt-4 max-w-3xl text-[clamp(1.9rem,3.8vw,3rem)] font-extrabold leading-[0.94] tracking-[-0.07em] text-white sm:text-[clamp(2rem,4vw,3.15rem)]">
+          <h1 className="mt-4 max-w-3xl text-[clamp(1.85rem,3.7vw,2.85rem)] font-semibold leading-[0.96] tracking-[-0.06em] text-white sm:text-[clamp(1.95rem,3.8vw,3rem)]">
             Your consultation request has been received.
           </h1>
 
-          <p className="mt-7 text-[clamp(1.02rem,1.35vw,1.16rem)] font-black leading-[1.2] tracking-[-0.04em] text-white sm:text-[1.16rem]">
+          <p className="mt-7 text-[clamp(1.02rem,1.35vw,1.16rem)] font-normal leading-[1.2] tracking-[-0.04em] text-white sm:text-[1.16rem]">
             Watch the video below before closing this page...
           </p>
 
-          <div className="mt-4 w-full max-w-[500px] overflow-hidden rounded-[1.25rem] border border-white/10 bg-[linear-gradient(180deg,rgba(15,26,57,0.96),rgba(9,18,42,0.96))] p-2.5 shadow-[0_14px_36px_rgba(0,0,0,0.2)]">
+          <div className="mt-4 w-full max-w-[460px] overflow-hidden rounded-[1.2rem] border border-white/10 bg-[linear-gradient(180deg,rgba(15,26,57,0.96),rgba(9,18,42,0.96))] p-2 shadow-[0_12px_30px_rgba(0,0,0,0.18)]">
             <div className="overflow-hidden rounded-[0.9rem] bg-black">
               <video
-                className="h-full w-full"
+                className="h-full w-full max-h-[250px] object-cover"
                 controls
                 playsInline
                 preload="metadata"

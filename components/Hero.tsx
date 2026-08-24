@@ -16,7 +16,7 @@ export function Hero() {
             Free 1:1 AI Marketing Consultation
           </span>
 
-          <h1 className="mt-8 max-w-5xl text-balance text-[clamp(2.3rem,4.8vw,4.1rem)] font-black leading-[0.98] tracking-[-0.07em] text-white">
+          <h1 className="mt-8 max-w-5xl text-balance text-[clamp(2.3rem,4.8vw,4.1rem)] font-semibold leading-[0.98] tracking-[-0.07em] text-white">
             Tired of Chasing Clients?
             <br />
             Let Them Come to You
