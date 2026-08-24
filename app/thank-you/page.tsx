@@ -17,7 +17,7 @@ export default function ThankYouPage() {
       <section className="content-wrap px-6 pb-12 pt-4 sm:px-8 md:pb-14 md:pt-6">
         <div className="mx-auto flex max-w-3xl flex-col items-center text-center">
           <span className="eyebrow">Thank You</span>
-          <h1 className="mt-4 max-w-3xl text-[clamp(2.2rem,4.4vw,3.7rem)] font-black leading-[0.92] tracking-[-0.08em] text-white sm:text-[clamp(2.3rem,4.6vw,3.9rem)]">
+          <h1 className="mt-4 max-w-3xl text-[clamp(1.9rem,3.8vw,3rem)] font-extrabold leading-[0.94] tracking-[-0.07em] text-white sm:text-[clamp(2rem,4vw,3.15rem)]">
             Your consultation request has been received.
           </h1>
 
@@ -25,7 +25,7 @@ export default function ThankYouPage() {
             Watch the video below before closing this page...
           </p>
 
-          <div className="mt-4 w-full max-w-[560px] overflow-hidden rounded-[1.35rem] border border-white/10 bg-[linear-gradient(180deg,rgba(15,26,57,0.96),rgba(9,18,42,0.96))] p-3 shadow-[0_16px_42px_rgba(0,0,0,0.22)]">
+          <div className="mt-4 w-full max-w-[500px] overflow-hidden rounded-[1.25rem] border border-white/10 bg-[linear-gradient(180deg,rgba(15,26,57,0.96),rgba(9,18,42,0.96))] p-2.5 shadow-[0_14px_36px_rgba(0,0,0,0.2)]">
             <div className="overflow-hidden rounded-[0.9rem] bg-black">
               <video
                 className="h-full w-full"
