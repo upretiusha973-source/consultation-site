@@ -1,13 +1,13 @@
 export function SiteFooter() {
   return (
-    <footer className="w-full border-t border-white/10 bg-[#030813]">
+    <footer className="w-full border-t border-white/10 bg-[#02040a]/42 backdrop-blur-2xl">
       <div className="content-wrap px-6 py-8 sm:px-8 md:py-10">
         <div className="flex items-end justify-between gap-4">
           <div className="flex items-center">
             <img
               src="/logoo.png"
               alt="Digital Usha"
-              className="h-auto w-[120px] max-w-[34vw] sm:w-[132px]"
+              className="h-auto w-[132px] max-w-[36vw] sm:w-[148px]"
               draggable={false}
             />
           </div>
@@ -22,3 +22,5 @@ export function SiteFooter() {
     </footer>
   );
 }
+
+

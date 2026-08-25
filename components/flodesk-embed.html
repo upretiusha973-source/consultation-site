@@ -200,8 +200,8 @@
   }
 
   [data-ff-el="root"].ff-6a870e66fbd33ed521da591d .fd-form-control::placeholder {
-    color: transparent !important;
-    opacity: 0 !important;
+    color: rgba(255, 255, 255, 0.58) !important;
+    opacity: 1 !important;
   }
 
   [data-ff-el="root"].ff-6a870e66fbd33ed521da591d .fd-form-control:disabled {
@@ -209,18 +209,15 @@
   }
 
   [data-ff-el="root"].ff-6a870e66fbd33ed521da591d .fd-form-label {
-    top: 0;
-    left: 0;
-    right: 0;
-    margin: 0;
-    overflow: hidden;
     position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
     white-space: nowrap;
-    text-overflow: ellipsis;
-  }
-
-  [data-ff-el="root"].ff-6a870e66fbd33ed521da591d .fd-form-control:not(:placeholder-shown)+.fd-form-label {
-    opacity: 0;
+    border: 0;
   }
 
   [data-ff-el="root"].ff-6a870e66fbd33ed521da591d .fd-form-description {
@@ -479,14 +476,6 @@
     transition: box-shadow 0.2s !important;
   }
 
-  [data-ff-el="root"].ff-6a870e66fbd33ed521da591d .ff-6a870e66fbd33ed521da591d__container {
-    margin: 0 auto;
-    overflow: hidden;
-    position: relative;
-    max-width: 620px;
-    background: #ffffff;
-  }
-
   [data-ff-el="root"].ff-6a870e66fbd33ed521da591d .ff-6a870e66fbd33ed521da591d__wrapper {
     display: flex;
   }
@@ -580,16 +569,15 @@
   }
 
   [data-ff-el="root"].ff-6a870e66fbd33ed521da591d .ff-6a870e66fbd33ed521da591d__label {
-    color: #000000;
-    border: 1px solid transparent;
-    padding: 12px 20px;
-    font-size: 13px;
-    text-align: left;
-    font-family: Helvetica, sans-serif;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0.1px;
-    text-transform: none;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
   }
 
   [data-ff-el="root"].ff-6a870e66fbd33ed521da591d .ff-6a870e66fbd33ed521da591d__preference {
@@ -665,7 +653,7 @@
   [data-ff-el="root"].ff-6a870e66fbd33ed521da591d .ff-6a870e66fbd33ed521da591d__form-check .fd-form-check__checkmark {
     top: 2.200000000000001px;
     border-radius: 4px;
-    background-image: url("data:image/svg+xml,%3csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg' %3e %3cpath d='M1 4C1 2.34315 2.34315 1 4 1H16C17.6569 1 19 2.34315 19 4V16C19 17.6569 17.6569 19 16 19H4C2.34315 19 1 17.6569 1 16V4Z' fill='white' fill-opacity='1' /%3e %3cpath fill='black' fill-rule='evenodd' clip-rule='evenodd' d='M0.25 4C0.25 1.92893 1.92893 0.25 4 0.25H16C18.0711 0.25 19.75 1.92893 19.75 4V16C19.75 18.0711 18.0711 19.75 16 19.75H4C1.92893 19.75 0.25 18.0711 0.25 16V4ZM4 1.75C2.75736 1.75 1.75 2.75736 1.75 4V16C1.75 17.2426 2.75736 18.25 4 18.25H16C17.2426 18.25 18.25 17.2426 18.25 16V4C18.25 2.75736 17.2426 1.75 16 1.75H4Z' /%3e %3c/svg%3e");
+    background-image: url("data:image/svg+xml,%3csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg' %3e %3cpath d='M1 4C1 2.34315 2.34315 1 4 1H16C17.6569 1 19 2.34315 19 4V16C19 17.6569 17.6569 19 16 19H4C2.34315 19 1 17.6569 1 16V4Z' fill='%23ff2600' fill-opacity='1' /%3e %3cpath fill='white' fill-rule='evenodd' clip-rule='evenodd' d='M0.25 4C0.25 1.92893 1.92893 0.25 4 0.25H16C18.0711 0.25 19.75 1.92893 19.75 4V16C19.75 18.0711 18.0711 19.75 16 19.75H4C1.92893 19.75 0.25 18.0711 0.25 16V4ZM4 1.75C2.75736 1.75 1.75 2.75736 1.75 4V16C1.75 17.2426 2.75736 18.25 4 18.25H16C17.2426 18.25 18.25 17.2426 18.25 16V4C18.25 2.75736 17.2426 1.75 16 1.75H4Z' /%3e %3c/svg%3e");
   }
 
   [data-ff-el="root"].ff-6a870e66fbd33ed521da591d .ff-6a870e66fbd33ed521da591d__form-check .fd-form-check__label {
@@ -679,30 +667,23 @@
     text-transform: none;
   }
 
-  [data-ff-el="root"].ff-6a870e66fbd33ed521da591d .ff-6a870e66fbd33ed521da591d__form-check .fd-form-check__checkmark::after {
-    background-size: 12px;
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='black' width='12' height='10' viewBox='0 0 11.51 8.2' %3e %3ctitle%3echeck%3c/title%3e %3cpath d='M4.05%2c8.2A.74.74%2c0%2c0%2c1%2c3.52%2c8L.22%2c4.68A.75.75%2c0%2c0%2c1%2c1.28%2c3.62l3.3%2c3.3A.75.75%2c0%2c0%2c1%2c4.58%2c8%2c.74.74%2c0%2c0%2c1%2c4.05%2c8.2Z' /%3e %3cpath d='M4.06%2c8.2A.74.74%2c0%2c0%2c1%2c3.53%2c8a.75.75%2c0%2c0%2c1%2c0-1.06l6.7-6.7a.75.75%2c0%2c0%2c1%2c1.06%2c1.06L4.59%2c8A.74.74%2c0%2c0%2c1%2c4.06%2c8.2Z' /%3e %3c/svg%3e");
-  }
-
-  [data-ff-el="root"].ff-6a870e66fbd33ed521da591d .ff-6a870e66fbd33ed521da591d__footer {
-    text-align: center;
-  }
-
   [data-ff-el="root"].ff-6a870e66fbd33ed521da591d .ff-6a870e66fbd33ed521da591d__button {
     color: #ffffff;
-    width: 100%;
-    border: 1px solid #000000;
+    width: auto;
+    min-width: 220px;
+    border: 1px solid #ff2600;
     display: inline-block;
     padding: 12px 20px;
     font-size: 13px;
-    background: #000000;
+    background: linear-gradient(90deg, #ff2600 0%, #ff2600 58%, #ff5b33 100%);
     text-align: center;
     font-family: Helvetica, sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 20px;
-    border-radius: 0px;
+    border-radius: 9999px;
     letter-spacing: 0.1px;
     text-transform: none;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08) inset, 0 12px 28px rgba(255, 38, 0, 0.32);
   }
 
   [data-ff-el="root"].ff-6a870e66fbd33ed521da591d .ff-6a870e66fbd33ed521da591d__button [data-draw-element="editable"] {
@@ -711,8 +692,8 @@
 
   @media (max-width: 767px) {
     [data-ff-el="root"].ff-6a870e66fbd33ed521da591d .ff-6a870e66fbd33ed521da591d__button {
-      width: 100%;
-    }
+    width: 100%;
+  }
   }
 
   [data-ff-el="root"].ff-6a870e66fbd33ed521da591d .ff-6a870e66fbd33ed521da591d__button [data-draw-element="editable"]:not([contenteditable]):empty::after {
@@ -864,6 +845,27 @@
     color: inherit;
     text-decoration: underline;
   }
+
+  [data-ff-el="root"].ff-6a870e66fbd33ed521da591d .ff-6a870e66fbd33ed521da591d__content {
+    text-align: center;
+  }
+
+  [data-ff-el="root"].ff-6a870e66fbd33ed521da591d .ff-6a870e66fbd33ed521da591d__footer {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  [data-ff-el="root"].ff-6a870e66fbd33ed521da591d .ff-6a870e66fbd33ed521da591d__footer::after {
+    content: "We respect your privacy. No spam.";
+    display: block;
+    margin-top: 12px;
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.4;
+  }
 </style>
 
 <div class="ff-6a870e66fbd33ed521da591d" data-ff-el="root" data-ff-version="3" data-ff-type="inline" data-ff-name="inlineNoImage" data-ff-stage="default">
@@ -889,51 +891,26 @@
 
             <div class="ff-6a870e66fbd33ed521da591d__field fd-form-group">
               <input id="ff-6a870e66fbd33ed521da591d-firstName" class="ff-6a870e66fbd33ed521da591d__control fd-form-control" type="text" maxlength="255" name="firstName" placeholder="First name" data-ff-tab="firstName::email" required />
-              <label for="ff-6a870e66fbd33ed521da591d-firstName" class="ff-6a870e66fbd33ed521da591d__label fd-form-label">
-                <div>
-                  <div>First name</div>
-                </div>
-              </label>
             </div>
 
 
             <div class="ff-6a870e66fbd33ed521da591d__field fd-form-group">
               <input id="ff-6a870e66fbd33ed521da591d-email" class="ff-6a870e66fbd33ed521da591d__control fd-form-control" type="text" maxlength="255" name="email" placeholder="Email address" data-ff-tab="email:firstName:fields.whatsappNumber" required />
-              <label for="ff-6a870e66fbd33ed521da591d-email" class="ff-6a870e66fbd33ed521da591d__label fd-form-label">
-                <div>
-                  <div>Email address</div>
-                </div>
-              </label>
             </div>
 
 
             <div class="ff-6a870e66fbd33ed521da591d__field fd-form-group">
               <input id="ff-6a870e66fbd33ed521da591d-r8x6UIPPjt" class="ff-6a870e66fbd33ed521da591d__control fd-form-control" type="text" maxlength="255" name="fields.whatsappNumber" placeholder="WhatsApp Number" data-ff-tab="fields.whatsappNumber:email:fields.businessName" required />
-              <label for="ff-6a870e66fbd33ed521da591d-r8x6UIPPjt" class="ff-6a870e66fbd33ed521da591d__label fd-form-label">
-                <div>
-                  <div>WhatsApp Number</div>
-                </div>
-              </label>
             </div>
 
 
             <div class="ff-6a870e66fbd33ed521da591d__field fd-form-group">
               <input id="ff-6a870e66fbd33ed521da591d-oHc3TsIqlW" class="ff-6a870e66fbd33ed521da591d__control fd-form-control" type="text" maxlength="255" name="fields.businessName" placeholder="Business Name" data-ff-tab="fields.businessName:fields.whatsappNumber:fields.websiteFacebookLink" required />
-              <label for="ff-6a870e66fbd33ed521da591d-oHc3TsIqlW" class="ff-6a870e66fbd33ed521da591d__label fd-form-label">
-                <div>
-                  <div>Business Name</div>
-                </div>
-              </label>
             </div>
 
 
             <div class="ff-6a870e66fbd33ed521da591d__field fd-form-group">
               <input id="ff-6a870e66fbd33ed521da591d-Rb9ksiaMTJ" class="ff-6a870e66fbd33ed521da591d__control fd-form-control" type="text" maxlength="255" name="fields.websiteFacebookLink" placeholder="Website/Facebook Link" data-ff-tab="fields.websiteFacebookLink:fields.businessName:submit" required />
-              <label for="ff-6a870e66fbd33ed521da591d-Rb9ksiaMTJ" class="ff-6a870e66fbd33ed521da591d__label fd-form-label">
-                <div>
-                  <div>Website/Facebook Link</div>
-                </div>
-              </label>
             </div>
 
             <input type="text" maxlength="255" name="confirm_email_address" style="display: none" />
@@ -943,7 +920,7 @@
 
           <div class="ff-6a870e66fbd33ed521da591d__footer" data-ff-el="footer">
             <button type="submit" class="ff-6a870e66fbd33ed521da591d__button fd-btn" data-ff-el="submit" data-ff-tab="submit">
-              <div><span data-draw-element="editable">Book a call with me!</span></div>
+              <div><span data-draw-element="editable">Book Free Consultation</span></div>
             </button>
           </div>
 

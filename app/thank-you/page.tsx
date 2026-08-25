@@ -2,7 +2,7 @@ import { SiteFooter } from "@/components/SiteFooter";
 
 export default function ThankYouPage() {
   return (
-    <main className="min-h-screen w-full bg-[#040916]">
+    <main className="thank-you-page min-h-screen w-full bg-[#02070f]">
       <section className="content-wrap px-6 py-10 sm:px-8 md:py-12">
         <div className="flex justify-center border-b border-white/10 pb-8">
           <img
@@ -16,8 +16,8 @@ export default function ThankYouPage() {
 
       <section className="content-wrap px-6 pb-12 pt-4 sm:px-8 md:pb-14 md:pt-6">
         <div className="mx-auto flex max-w-3xl flex-col items-center text-center">
-          <span className="eyebrow">Thank You</span>
-          <h1 className="mt-4 max-w-3xl text-[clamp(1.85rem,3.7vw,2.85rem)] font-semibold leading-[0.96] tracking-[-0.06em] text-white sm:text-[clamp(1.95rem,3.8vw,3rem)]">
+          <span className="eyebrow !text-[#ff2600]">THANK YOU</span>
+          <h1 className="mt-4 max-w-3xl text-balance text-[clamp(2rem,4vw,4rem)] font-semibold leading-[0.95] tracking-[-0.07em] text-white sm:text-[clamp(2rem,4vw,4rem)]">
             Your consultation request has been received.
           </h1>
 
@@ -25,14 +25,14 @@ export default function ThankYouPage() {
             Watch the video below before closing this page...
           </p>
 
-          <div className="mt-4 w-full max-w-[460px] overflow-hidden rounded-[1.2rem] border border-white/10 bg-[linear-gradient(180deg,rgba(15,26,57,0.96),rgba(9,18,42,0.96))] p-2 shadow-[0_12px_30px_rgba(0,0,0,0.18)]">
-            <div className="overflow-hidden rounded-[0.9rem] bg-black">
-              <video
-                className="h-full w-full max-h-[300px] object-cover"
-                controls
-                playsInline
-                preload="metadata"
-                src="/WhatsApp%20Video%202026-08-23%20at%204.38.03%20PM.mp4"
+          <div className="mt-4 w-full max-w-[420px] overflow-hidden rounded-[1.2rem] border border-white/10 bg-[linear-gradient(180deg,rgba(15,26,57,0.96),rgba(9,18,42,0.96))] p-2 shadow-[0_12px_30px_rgba(0,0,0,0.18)]">
+            <div className="aspect-video overflow-hidden rounded-[0.9rem] bg-black">
+              <iframe
+                className="h-full w-full"
+                src="https://www.youtube.com/embed/7iJWVI4hwVk"
+                title="YouTube video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
               />
             </div>
           </div>
@@ -45,7 +45,7 @@ export default function ThankYouPage() {
             href="https://wa.me/+9779767122322"
             target="_blank"
             rel="noreferrer"
-            className="mt-4 inline-flex h-12 items-center justify-center rounded-full bg-[#25d366] px-7 text-[0.98rem] font-extrabold text-[#07140c] transition-colors hover:bg-[#36e07a]"
+            className="gradient-cta mt-4 inline-flex h-12 items-center justify-center rounded-full px-7 text-[0.98rem] font-extrabold text-white"
           >
             Chat on WhatsApp
           </a>
@@ -74,3 +74,6 @@ export default function ThankYouPage() {
     </main>
   );
 }
+
+
+

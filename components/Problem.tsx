@@ -1,6 +1,6 @@
 export function Problem() {
   return (
-    <section className="w-full border-b border-line bg-[#040916]">
+    <section className="w-full border-b border-line bg-[#040916]/42 backdrop-blur-2xl">
       <div className="content-wrap px-6 py-20 sm:px-8 md:py-24">
         <div className="mx-auto flex max-w-4xl flex-col items-center text-center">
           <span className="eyebrow">Register Now</span>
@@ -16,3 +16,5 @@ export function Problem() {
     </section>
   );
 }
+
+
