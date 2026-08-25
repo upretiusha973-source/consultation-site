@@ -299,6 +299,7 @@ body::after {
 
 #consultation-form .ff-6a870e66fbd33ed521da591d__form {
   padding: 0;
+  margin: 0;
   color: #ffffff;
   font-family: var(--font-manrope), Arial, Helvetica, sans-serif;
   text-align: left;
@@ -306,6 +307,11 @@ body::after {
 
 #consultation-form .ff-6a870e66fbd33ed521da591d__fields {
   margin: 0;
+}
+
+#consultation-form .ff-6a870e66fbd33ed521da591d__fields,
+#consultation-form .fd-form-group:first-child {
+  margin-top: 0;
 }
 
 #consultation-form .ff-6a870e66fbd33ed521da591d__field {

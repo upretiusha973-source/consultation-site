@@ -11,8 +11,8 @@ const flodeskEmbedHtml = readFileSync(
 export function CTAForm() {
   return (
     <section id="consultation-form" className="w-full border-b border-line bg-[#040916]/42 backdrop-blur-2xl">
-      <div className="content-wrap px-6 py-10 sm:px-8 md:py-12">
-        <div className="mx-auto mb-5 max-w-4xl text-center">
+      <div className="content-wrap px-6 py-8 sm:px-8 md:py-10">
+        <div className="mx-auto mb-4 max-w-4xl text-center">
           <span className="eyebrow !text-[#ff2600]">REGISTER NOW</span>
           <h2 className="section-title mt-5 text-[clamp(2.1rem,4.2vw,3.5rem)] !text-white">
             Book Your Free 1:1 Consultation
@@ -24,7 +24,7 @@ export function CTAForm() {
         </div>
 
         <div className="mx-auto max-w-5xl">
-          <div className="form-shell rounded-[1.65rem] border border-white/8 bg-[#040916]/48 px-5 py-4 backdrop-blur-2xl sm:px-7 md:px-10 md:py-6">
+          <div className="form-shell rounded-[1.65rem] border border-white/8 bg-[#040916]/48 px-5 py-3 backdrop-blur-2xl sm:px-7 md:px-10 md:py-5">
             <div suppressHydrationWarning dangerouslySetInnerHTML={{ __html: flodeskEmbedHtml }} />
           </div>
         </div>
